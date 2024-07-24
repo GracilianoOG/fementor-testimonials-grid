@@ -15,6 +15,7 @@ export const StyledCard = styled.article`
   .header {
     align-items: center;
     display: flex;
+    gap: 1rem;
   }
 
   .avatar {
