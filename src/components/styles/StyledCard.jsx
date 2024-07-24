@@ -5,4 +5,8 @@ export const StyledCard = styled.article`
   border-radius: 8px;
   max-width: 326px;
   padding: 32px;
+
+  .avatar {
+    border-radius: 50%;
+  }
 `
