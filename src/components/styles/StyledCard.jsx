@@ -29,6 +29,7 @@ export const StyledCard = styled.article`
   }
 
   .status {
+    font-size: 0.688rem;
     opacity: 50%;
   }
 
