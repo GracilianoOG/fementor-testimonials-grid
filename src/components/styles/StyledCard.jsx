@@ -35,6 +35,7 @@ export const StyledCard = styled.article`
   .title {
     color: hsl(0, 0%, 100%);
     font-size: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   .description {
