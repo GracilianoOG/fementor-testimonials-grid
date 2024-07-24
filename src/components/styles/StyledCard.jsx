@@ -6,6 +6,10 @@ export const StyledCard = styled.article`
   max-width: 326px;
   padding: 32px;
 
+  .title {
+    color: hsl(0, 0%, 100%);
+  }
+
   .header {
     align-items: center;
     display: flex;
