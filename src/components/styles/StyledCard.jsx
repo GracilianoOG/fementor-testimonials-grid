@@ -12,6 +12,15 @@ export const StyledCard = styled.article`
     color: hsl(0, 0%, 100%);
   }
 
+  .header {
+    align-items: center;
+    display: flex;
+  }
+
+  .avatar {
+    border-radius: 50%;
+  }
+
   .name {
     font-size: 0.938rem;
   }
@@ -27,14 +36,5 @@ export const StyledCard = styled.article`
 
   .description {
     opacity: 70%;
-  }
-
-  .header {
-    align-items: center;
-    display: flex;
-  }
-
-  .avatar {
-    border-radius: 50%;
   }
 `
