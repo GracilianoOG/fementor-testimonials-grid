@@ -40,5 +40,6 @@ export const StyledCard = styled.article`
 
   .description {
     opacity: 70%;
+    line-height: 1.4;
   }
 `
