@@ -16,6 +16,10 @@ export const StyledCard = styled.article`
     font-size: 0.938rem;
   }
 
+  .status {
+    opacity: 50%;
+  }
+
   .title {
     color: hsl(0, 0%, 100%);
     font-size: 1.25rem;
