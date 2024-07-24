@@ -6,6 +6,10 @@ export const StyledCard = styled.article`
   max-width: 326px;
   padding: 32px;
 
+  .name {
+    font-size: 0.938rem;
+  }
+
   .title {
     color: hsl(0, 0%, 100%);
     font-size: 1.25rem;
