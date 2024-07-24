@@ -1,3 +1,7 @@
 body {
+  align-items: center;
+  display: grid;
   font-family: "Barlow Semi Condensed", sans-serif;
+  justify-content: center;
+  min-height: 100vh;
 }
