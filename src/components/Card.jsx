@@ -1,8 +1,10 @@
+import { StyledCard } from "./styles/StyledCard"
+
 const Card = () => {
   return (
-    <article>
-      Card
-    </article>
+    <StyledCard>
+      card
+    </StyledCard>
   )
 }
 
