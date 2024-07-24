@@ -25,7 +25,7 @@ export const StyledCard = styled.article`
   }
 
   .name {
-    font-size: 0.938rem;
+    font-size: 0.813rem;
   }
 
   .status {
