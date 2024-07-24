@@ -25,6 +25,10 @@ export const StyledCard = styled.article`
     font-size: 1.25rem;
   }
 
+  .description {
+    opacity: 70%;
+  }
+
   .header {
     align-items: center;
     display: flex;
