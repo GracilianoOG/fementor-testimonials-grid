@@ -11,7 +11,7 @@ const Card = ({ name, status, title, review, avatar }) => {
         </div>
       </div>
       <h3 className="title">{ title }</h3>
-      <p className="description">{ review }</p>
+      <p className="description">“ { review } ”</p>
     </StyledCard>
   )
 }
