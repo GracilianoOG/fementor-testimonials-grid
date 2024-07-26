@@ -2,7 +2,7 @@ import './App.css'
 import Card from './components/Card'
 import danielAvatar from "./assets/images/image-daniel.jpg"
 
-function App() {
+const App = () => {
   return (
     <>
       <Card
