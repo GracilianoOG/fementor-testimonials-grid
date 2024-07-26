@@ -10,7 +10,7 @@ export const StyledCard = styled.article`
   .name,
   .status,
   .description {
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 81%);
   }
 
   .header {
