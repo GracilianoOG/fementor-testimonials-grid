@@ -1,6 +1,7 @@
 import './App.css'
 import Card from './components/Card'
 import danielAvatar from "./assets/images/image-daniel.jpg"
+import jonathanAvatar from "./assets/images/image-jonathan.jpg"
 
 const App = () => {
   return (
@@ -16,6 +17,14 @@ const App = () => {
         for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
         The next 12 weeks was the best - and most grueling - time of my life. Since completing 
         the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”"
+      />
+      <Card
+        avatar={ jonathanAvatar }
+        name="Jonathan Walters"
+        status="Verified Graduate"
+        title="The team was very supportive and kept me motivated"
+        review="“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+        for a big company. This was one of the best investments I’ve made in myself. ”"
       />
     </>
   )
