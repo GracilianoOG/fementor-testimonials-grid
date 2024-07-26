@@ -5,7 +5,7 @@ import jonathanAvatar from "./assets/images/image-jonathan.jpg"
 
 const App = () => {
   return (
-    <>
+    <div className="card-wrapper">
       <Card
         avatar={ danielAvatar }
         name="Daniel Clifford"
@@ -26,7 +26,7 @@ const App = () => {
         review="“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
         for a big company. This was one of the best investments I’ve made in myself. ”"
       />
-    </>
+    </div>
   )
 }
 
