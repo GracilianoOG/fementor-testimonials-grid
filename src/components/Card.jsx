@@ -1,7 +1,6 @@
 import { StyledCard } from "./styles/StyledCard"
-import avatar from "../assets/images/image-daniel.jpg"
 
-const Card = ({ name, status, title, review }) => {
+const Card = ({ name, status, title, review, avatar }) => {
   return (
     <StyledCard>
       <div className="header">
