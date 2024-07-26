@@ -1,10 +1,12 @@
 import './App.css'
 import Card from './components/Card'
+import danielAvatar from "./assets/images/image-daniel.jpg"
 
 function App() {
   return (
     <>
       <Card
+        avatar={ danielAvatar }
         name="Daniel Clifford"
         status="Verified Graduate"
         title="I received a job offer mid-course, and the subjects I learned were current, if not more so, 
