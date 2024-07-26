@@ -9,7 +9,6 @@ const App = () => {
       <Card
         avatar={ danielAvatar }
         name="Daniel Clifford"
-        status="Verified Graduate"
         title="I received a job offer mid-course, and the subjects I learned were current, if not more so, 
         in the company I joined. I honestly feel I got every penny’s worth."
         review="“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
@@ -21,7 +20,6 @@ const App = () => {
       <Card
         avatar={ jonathanAvatar }
         name="Jonathan Walters"
-        status="Verified Graduate"
         title="The team was very supportive and kept me motivated"
         review="“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
         for a big company. This was one of the best investments I’ve made in myself. ”"
