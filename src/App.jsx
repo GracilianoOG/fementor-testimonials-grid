@@ -2,6 +2,7 @@ import './App.css'
 import Card from './components/Card'
 import danielAvatar from "./assets/images/image-daniel.jpg"
 import jonathanAvatar from "./assets/images/image-jonathan.jpg"
+import jeanetteAvatar from "./assets/images/image-jeanette.jpg"
 
 const App = () => {
   return (
@@ -23,6 +24,13 @@ const App = () => {
         title="The team was very supportive and kept me motivated"
         review="I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
         for a big company. This was one of the best investments I’ve made in myself."
+      />
+      <Card
+        avatar={ jeanetteAvatar }
+        name="Jeanette Harmon"
+        title="An overall wonderful and rewarding experience"
+        review="Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+        while doing something I love."
       />
     </div>
   )
