@@ -22,7 +22,7 @@ export const StyledCard = styled.article`
 
   .avatar {
     border-radius: 50%;
-    outline: 2px solid ${(props) => props?.$cardColors?.avatar || "hsl(0, 0%, 100%)"};
+    outline: 2px solid ${(props) => props?.$cardColors?.avatar || "transparent"};
     width: 1.75rem;
   }
 
