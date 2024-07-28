@@ -22,6 +22,7 @@ const App = () => {
         the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup."
       />
       <Card
+        cardColors={{ bg: "#48556a", text: "#cfcfcf", title: "#ffffff" }}
         avatar={ jonathanAvatar }
         name="Jonathan Walters"
         title="The team was very supportive and kept me motivated"
