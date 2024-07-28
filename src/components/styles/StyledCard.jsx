@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledCard = styled.article`
-  background-color: ${(props) => props?.cardColors?.bg || "hsl(0, 0%, 100%)"};
+  background-color: ${(props) => props?.$cardColors?.bg || "hsl(0, 0%, 100%)"};
   border-radius: 8px;
   max-width: 326px;
   padding: 32px;
@@ -10,7 +10,7 @@ export const StyledCard = styled.article`
   .name,
   .status,
   .description {
-    color: ${(props) => props?.cardColors?.text || "hsl(217, 19%, 35%)"};
+    color: ${(props) => props?.$cardColors?.text || "hsl(217, 19%, 35%)"};
   }
 
   .header {
@@ -22,7 +22,7 @@ export const StyledCard = styled.article`
 
   .avatar {
     border-radius: 50%;
-    outline: 2px solid ${(props) => props?.cardColors?.avatar || "hsl(0, 0%, 100%)"};
+    outline: 2px solid ${(props) => props?.$cardColors?.avatar || "hsl(0, 0%, 100%)"};
     width: 1.75rem;
   }
 
@@ -36,7 +36,7 @@ export const StyledCard = styled.article`
   }
 
   .title {
-    color: ${(props) => props?.cardColors?.title || "hsl(217, 19%, 35%)"};
+    color: ${(props) => props?.$cardColors?.title || "hsl(217, 19%, 35%)"};
     font-size: 1.25rem;
     margin-bottom: 1rem;
   }
