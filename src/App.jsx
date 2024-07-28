@@ -10,6 +10,7 @@ const App = () => {
   return (
     <div className="card-wrapper">
       <Card
+        cardColors={{ bg: "#7541c8", text: "#cfcfcf", avatar: "#9971d7", title: "#ffffff" }}
         avatar={ danielAvatar }
         name="Daniel Clifford"
         title="I received a job offer mid-course, and the subjects I learned were current, if not more so, 
