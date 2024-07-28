@@ -37,6 +37,7 @@ const App = () => {
         while doing something I love."
       />
       <Card
+        cardColors={{ bg: "#19212e", text: "#cfcfcf", avatar: "#7541c8", title: "#ffffff" }}
         avatar={ patrickAvatar }
         name="Patrick Abrams"
         title="Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
