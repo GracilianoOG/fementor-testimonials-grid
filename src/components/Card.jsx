@@ -1,8 +1,8 @@
 import { StyledCard } from "./styles/StyledCard"
 
-const Card = ({ name, status, title, review, avatar }) => {
+const Card = ({ name, status, title, review, avatar, colors }) => {
   return (
-    <StyledCard>
+    <StyledCard colors={colors}>
       <div className="header">
         <img className="avatar" src={avatar} alt="" />
         <div className="info">
