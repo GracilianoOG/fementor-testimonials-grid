@@ -50,3 +50,23 @@ export const StyledCard = styled.article`
     line-height: 1.4;
   }
 `
+
+export const StyledVioletCard = styled(StyledCard)`
+  --color-bg: var(--color-violet);
+  --color-title: var(--color-white);
+  --color-text: var(--color-gray);
+  --color-border: #9971d7;
+`
+
+export const StyledGrayCard = styled(StyledCard)`
+  --color-bg: var(--color-dark-grayish-blue);
+  --color-title: var(--color-white);
+  --color-text: var(--color-gray);
+`
+
+export const StyledBlackCard = styled(StyledCard)`
+  --color-bg: var(--color-blackish-blue);
+  --color-title: var(--color-white);
+  --color-text: var(--color-gray);
+  --color-border: var(--color-violet);
+`
