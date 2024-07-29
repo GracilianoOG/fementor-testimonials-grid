@@ -1,16 +1,20 @@
 import styled from "styled-components";
 
 export const StyledCard = styled.article`
-  background-color: var(--color-white);
+  --color-bg: var(--color-white);
+  --color-title: var(--color-dark-grayish-blue);
+  --color-text: var(--color-dark-grayish-blue);
+  --color-border: transparent;
+
+  background-color: var(--color-bg);
   border-radius: 8px;
   padding: 32px;
   padding-top: 24px;
 
   .name,
   .status,
-  .description,
-  .title {
-    color: var(--color-dark-grayish-blue);
+  .description {
+    color: var(--color-text);
   }
 
   .header {
@@ -22,7 +26,7 @@ export const StyledCard = styled.article`
 
   .avatar {
     border-radius: 50%;
-    outline: 2px solid transparent;
+    outline: 2px solid var(--color-border);
     width: 1.75rem;
   }
 
@@ -36,6 +40,7 @@ export const StyledCard = styled.article`
   }
 
   .title {
+    color: var(--color-title);
     font-size: 1.25rem;
     margin-bottom: 1rem;
   }
