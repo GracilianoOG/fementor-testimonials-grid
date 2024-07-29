@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const StyledCard = styled.article`
   background-color: ${(props) => props?.$cardColors?.bg || "hsl(0, 0%, 100%)"};
   border-radius: 8px;
-  max-width: 326px;
   padding: 32px;
   padding-top: 24px;
 
