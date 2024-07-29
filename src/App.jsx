@@ -5,12 +5,12 @@ import jonathanAvatar from "./assets/images/image-jonathan.jpg"
 import jeanetteAvatar from "./assets/images/image-jeanette.jpg"
 import patrickAvatar from "./assets/images/image-patrick.jpg"
 import kiraAvatar from "./assets/images/image-kira.jpg"
-import { StyledCard } from './components/styles/StyledCard'
+import { StyledBlackCard, StyledCard, StyledGrayCard, StyledVioletCard } from './components/styles/StyledCard'
 
 const App = () => {
   return (
     <div className="card-wrapper">
-      <StyledCard>
+      <StyledVioletCard>
         <Card
           avatar={ danielAvatar }
           name="Daniel Clifford"
@@ -22,8 +22,8 @@ const App = () => {
           The next 12 weeks was the best - and most grueling - time of my life. Since completing 
           the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup."
         />
-      </StyledCard>
-      <StyledCard>
+      </StyledVioletCard>
+      <StyledGrayCard>
         <Card
           avatar={ jonathanAvatar }
           name="Jonathan Walters"
@@ -31,7 +31,7 @@ const App = () => {
           review="I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
           for a big company. This was one of the best investments I’ve made in myself."
         />
-      </StyledCard>
+      </StyledGrayCard>
       <StyledCard>
         <Card
           avatar={ jeanetteAvatar }
@@ -41,7 +41,7 @@ const App = () => {
           while doing something I love."
         />
       </StyledCard>
-      <StyledCard>
+      <StyledBlackCard>
         <Card
           avatar={ patrickAvatar }
           name="Patrick Abrams"
@@ -52,7 +52,7 @@ const App = () => {
           junior developer. The standard is above the rest. You will get the personal attention you need from 
           an incredible community of smart and amazing people."
         />
-      </StyledCard>
+      </StyledBlackCard>
       <StyledCard>
         <Card
           avatar={ kiraAvatar }
