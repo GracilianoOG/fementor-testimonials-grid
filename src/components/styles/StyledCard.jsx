@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
 export const StyledCard = styled.article`
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--color-white);
   border-radius: 8px;
   padding: 32px;
   padding-top: 24px;
 
   .name,
   .status,
-  .description {
-    color: hsl(217, 19%, 35%);
+  .description,
+  .title {
+    color: var(--color-dark-grayish-blue);
   }
 
   .header {
@@ -35,7 +36,6 @@ export const StyledCard = styled.article`
   }
 
   .title {
-    color: hsl(217, 19%, 35%);
     font-size: 1.25rem;
     margin-bottom: 1rem;
   }
