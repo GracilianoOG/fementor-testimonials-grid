@@ -10,7 +10,6 @@ const App = () => {
   return (
     <div className="card-wrapper">
       <Card
-        cardColors={{ bg: "#7541c8", text: "#cfcfcf", avatar: "#9971d7", title: "#ffffff" }}
         avatar={ danielAvatar }
         name="Daniel Clifford"
         title="I received a job offer mid-course, and the subjects I learned were current, if not more so, 
@@ -22,7 +21,6 @@ const App = () => {
         the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup."
       />
       <Card
-        cardColors={{ bg: "#48556a", text: "#cfcfcf", title: "#ffffff" }}
         avatar={ jonathanAvatar }
         name="Jonathan Walters"
         title="The team was very supportive and kept me motivated"
@@ -37,7 +35,6 @@ const App = () => {
         while doing something I love."
       />
       <Card
-        cardColors={{ bg: "#19212e", text: "#cfcfcf", avatar: "#7541c8", title: "#ffffff" }}
         avatar={ patrickAvatar }
         name="Patrick Abrams"
         title="Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
