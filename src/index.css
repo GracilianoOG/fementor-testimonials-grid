@@ -5,3 +5,40 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  /* Primary colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-blue: hsl(210, 46%, 95%);
+  --color-violet: hsl(263, 55%, 52%);
+  --color-dark-grayish-blue: hsl(217, 19%, 35%);
+  --color-blackish-blue: hsl(219, 29%, 14%);
+
+  /* Neutral colors */
+  --color-gray: hsl(0, 0%, 81%);
+  --color-light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+body {
+  align-items: center;
+  background-color: var(--color-light-blue);
+  display: grid;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24.5px;
+}
+
+.card-wrapper {
+  display: grid;
+  gap: 23px 29px;
+}
+
+@media screen and (min-width: 992px) {
+  .card-wrapper {
+    grid-template-areas: 
+    "card1 card1 card2 card3"
+    "card4 card5 card5 card3";
+  }
+}
