@@ -10,7 +10,7 @@ import { StyledBlackCard, StyledCard, StyledGrayCard, StyledVioletCard } from '.
 const App = () => {
   return (
     <div className="card-wrapper">
-      <StyledVioletCard>
+      <StyledVioletCard $gridArea="card1" $maxWidth="539px">
         <Card
           avatar={ danielAvatar }
           name="Daniel Clifford"
@@ -23,7 +23,7 @@ const App = () => {
           the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup."
         />
       </StyledVioletCard>
-      <StyledGrayCard>
+      <StyledGrayCard $gridArea="card2" $maxWidth="254px">
         <Card
           avatar={ jonathanAvatar }
           name="Jonathan Walters"
@@ -32,7 +32,7 @@ const App = () => {
           for a big company. This was one of the best investments I’ve made in myself."
         />
       </StyledGrayCard>
-      <StyledCard>
+      <StyledCard $gridArea="card4" $maxWidth="254px">
         <Card
           avatar={ jeanetteAvatar }
           name="Jeanette Harmon"
@@ -41,7 +41,7 @@ const App = () => {
           while doing something I love."
         />
       </StyledCard>
-      <StyledBlackCard>
+      <StyledBlackCard $gridArea="card5" $maxWidth="539px">
         <Card
           avatar={ patrickAvatar }
           name="Patrick Abrams"
@@ -53,7 +53,7 @@ const App = () => {
           an incredible community of smart and amazing people."
         />
       </StyledBlackCard>
-      <StyledCard>
+      <StyledCard $gridArea="card3" $maxWidth="254px">
         <Card
           avatar={ kiraAvatar }
           name="Kira Whittle"
