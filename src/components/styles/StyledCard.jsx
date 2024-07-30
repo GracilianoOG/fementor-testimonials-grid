@@ -49,6 +49,13 @@ export const StyledCard = styled.article`
     opacity: 70%;
     line-height: 1.4;
   }
+
+  @media screen and (min-width: 992px) {
+    & {
+        grid-area: ${props => props.$gridArea};
+        max-width: ${props => props.$maxWidth};
+    }
+  }
 `
 
 export const StyledVioletCard = styled(StyledCard)`
