@@ -8,9 +8,12 @@ import kiraAvatar from "./assets/images/image-kira.jpg"
 import { StyledBlackCard, StyledCard, StyledGrayCard, StyledVioletCard } from './components/styles/StyledCard'
 
 const App = () => {
+  const BIG_CARD = "539px"
+  const SMALL_CARD = "254px"
+
   return (
     <div className="card-wrapper">
-      <StyledVioletCard $gridArea="card1" $maxWidth="539px">
+      <StyledVioletCard $gridArea="card1" $maxWidth={BIG_CARD}>
         <Card
           avatar={ danielAvatar }
           name="Daniel Clifford"
@@ -23,7 +26,7 @@ const App = () => {
           the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup."
         />
       </StyledVioletCard>
-      <StyledGrayCard $gridArea="card2" $maxWidth="254px">
+      <StyledGrayCard $gridArea="card2" $maxWidth={SMALL_CARD}>
         <Card
           avatar={ jonathanAvatar }
           name="Jonathan Walters"
@@ -32,7 +35,7 @@ const App = () => {
           for a big company. This was one of the best investments I’ve made in myself."
         />
       </StyledGrayCard>
-      <StyledCard $gridArea="card4" $maxWidth="254px">
+      <StyledCard $gridArea="card4" $maxWidth={SMALL_CARD}>
         <Card
           avatar={ jeanetteAvatar }
           name="Jeanette Harmon"
@@ -41,7 +44,7 @@ const App = () => {
           while doing something I love."
         />
       </StyledCard>
-      <StyledBlackCard $gridArea="card5" $maxWidth="539px">
+      <StyledBlackCard $gridArea="card5" $maxWidth={BIG_CARD}>
         <Card
           avatar={ patrickAvatar }
           name="Patrick Abrams"
@@ -53,7 +56,7 @@ const App = () => {
           an incredible community of smart and amazing people."
         />
       </StyledBlackCard>
-      <StyledCard $gridArea="card3" $maxWidth="254px">
+      <StyledCard $gridArea="card3" $maxWidth={SMALL_CARD}>
         <Card
           avatar={ kiraAvatar }
           name="Kira Whittle"
