@@ -6,13 +6,14 @@ import jeanetteAvatar from "./assets/images/image-jeanette.jpg"
 import patrickAvatar from "./assets/images/image-patrick.jpg"
 import kiraAvatar from "./assets/images/image-kira.jpg"
 import { StyledBlackCard, StyledCard, StyledGrayCard, StyledVioletCard } from './components/styles/StyledCard'
+import { StyledCardWrapper } from './components/styles/StyledCardWrapper'
 
 const App = () => {
   const BIG_CARD = "539px"
   const SMALL_CARD = "254px"
 
   return (
-    <div className="card-wrapper">
+    <StyledCardWrapper>
       <StyledVioletCard $gridArea="card1" $maxWidth={BIG_CARD}>
         <Card
           avatar={ danielAvatar }
@@ -71,7 +72,7 @@ const App = () => {
           100% recommend!"
         />
       </StyledCard>
-    </div>
+    </StyledCardWrapper>
   )
 }
 
