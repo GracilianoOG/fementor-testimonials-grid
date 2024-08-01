@@ -51,7 +51,7 @@ export const StyledCard = styled.article`
     line-height: 1.4;
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1200px) {
     & {
         max-width: var(${props => props.$big ? "--card-big" : "--card-small"});
     }

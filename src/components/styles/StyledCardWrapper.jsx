@@ -12,7 +12,7 @@ export const StyledCardWrapper = styled.div`
     "card3 card3";
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1200px) {
     & {
       grid-template-areas: 
       "card1 card1 card2 card3"
