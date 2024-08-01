@@ -8,6 +8,7 @@ export const StyledCard = styled.article`
 
   background-color: var(--color-bg);
   border-radius: 8px;
+  grid-area: ${props => props.$gridArea};
   padding: 32px;
   padding-top: 24px;
 
@@ -52,7 +53,6 @@ export const StyledCard = styled.article`
 
   @media screen and (min-width: 992px) {
     & {
-        grid-area: ${props => props.$gridArea};
         max-width: var(${props => props.$big ? "--card-big" : "--card-small"});
     }
   }
