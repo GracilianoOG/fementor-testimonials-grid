@@ -58,22 +58,21 @@ export const StyledCard = styled.article`
   }
 `
 
-export const StyledVioletCard = styled(StyledCard)`
-  --color-bg: var(--color-violet);
-  --color-title: var(--color-white);
-  --color-text: var(--color-gray);
-  --color-border: #9971d7;
-`
-
-export const StyledGrayCard = styled(StyledCard)`
-  --color-bg: var(--color-dark-grayish-blue);
-  --color-title: var(--color-white);
-  --color-text: var(--color-gray);
-`
-
-export const StyledBlackCard = styled(StyledCard)`
+const StyledDarkCard = styled(StyledCard)`
   --color-bg: var(--color-blackish-blue);
   --color-title: var(--color-white);
   --color-text: var(--color-gray);
+`
+
+export const StyledVioletCard = styled(StyledDarkCard)`
+  --color-bg: var(--color-violet);
+  --color-border: #9971d7;
+`
+
+export const StyledGrayCard = styled(StyledDarkCard)`
+  --color-bg: var(--color-dark-grayish-blue);
+`
+
+export const StyledBlackCard = styled(StyledDarkCard)`
   --color-border: var(--color-violet);
 `
