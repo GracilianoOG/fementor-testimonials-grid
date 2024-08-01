@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <StyledCardWrapper>
-      <StyledVioletCard $gridArea="card1" $maxWidth={BIG_CARD}>
+      <StyledVioletCard $gridArea="card1" $big>
         <Card
           avatar={ danielAvatar }
           name="Daniel Clifford"
@@ -27,7 +27,7 @@ const App = () => {
           the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup."
         />
       </StyledVioletCard>
-      <StyledGrayCard $gridArea="card2" $maxWidth={SMALL_CARD}>
+      <StyledGrayCard $gridArea="card2">
         <Card
           avatar={ jonathanAvatar }
           name="Jonathan Walters"
@@ -36,7 +36,7 @@ const App = () => {
           for a big company. This was one of the best investments I’ve made in myself."
         />
       </StyledGrayCard>
-      <StyledCard $gridArea="card4" $maxWidth={SMALL_CARD}>
+      <StyledCard $gridArea="card4">
         <Card
           avatar={ jeanetteAvatar }
           name="Jeanette Harmon"
@@ -45,7 +45,7 @@ const App = () => {
           while doing something I love."
         />
       </StyledCard>
-      <StyledBlackCard $gridArea="card5" $maxWidth={BIG_CARD}>
+      <StyledBlackCard $gridArea="card5" $big>
         <Card
           avatar={ patrickAvatar }
           name="Patrick Abrams"
@@ -57,7 +57,7 @@ const App = () => {
           an incredible community of smart and amazing people."
         />
       </StyledBlackCard>
-      <StyledCard $gridArea="card3" $maxWidth={SMALL_CARD}>
+      <StyledCard $gridArea="card3">
         <Card
           avatar={ kiraAvatar }
           name="Kira Whittle"
