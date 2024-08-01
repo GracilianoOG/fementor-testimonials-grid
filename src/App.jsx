@@ -9,9 +9,6 @@ import { StyledBlackCard, StyledCard, StyledGrayCard, StyledVioletCard } from '.
 import { StyledCardWrapper } from './components/styles/StyledCardWrapper'
 
 const App = () => {
-  const BIG_CARD = "539px"
-  const SMALL_CARD = "254px"
-
   return (
     <StyledCardWrapper>
       <StyledVioletCard $gridArea="card1" $big>
