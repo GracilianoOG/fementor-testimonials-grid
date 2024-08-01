@@ -17,6 +17,10 @@
   /* Neutral colors */
   --color-gray: hsl(0, 0%, 81%);
   --color-light-grayish-blue: hsl(210, 46%, 95%);
+
+  /* Measures */
+  --card-small: 254px;
+  --card-big: 539px;
 }
 
 body {
