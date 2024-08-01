@@ -53,7 +53,7 @@ export const StyledCard = styled.article`
   @media screen and (min-width: 992px) {
     & {
         grid-area: ${props => props.$gridArea};
-        max-width: ${props => props.$maxWidth};
+        max-width: ${props => props.$big ? "var(--card-big)" : "var(--card-small)"};
     }
   }
 `
