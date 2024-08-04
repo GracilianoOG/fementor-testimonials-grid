@@ -34,17 +34,17 @@ export const StyledCard = styled.article`
   }
 
   .name {
-    font-size: 0.813rem;
+    font-size: var(--card-name-size);
   }
 
   .status {
-    font-size: 0.688rem;
+    font-size: var(--card-status-size);
     opacity: 50%;
   }
 
   .title {
     color: var(--color-title);
-    font-size: 1.25rem;
+    font-size: var(--card-title-size);
     margin-bottom: 1rem;
   }
 
