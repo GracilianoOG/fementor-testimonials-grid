@@ -55,6 +55,7 @@ export const StyledCard = styled.article`
 
   @media screen and (min-width: 1200px) {
     & {
+        ${props => props.$quotation && `background: url(${quotation}) no-repeat top right 79px, var(--color-bg);`}
         max-width: var(${props => props.$big ? "--card-big" : "--card-small"});
     }
   }
