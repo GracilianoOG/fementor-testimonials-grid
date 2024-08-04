@@ -30,7 +30,7 @@ export const StyledCard = styled.article`
   .avatar {
     border-radius: 50%;
     outline: 2px solid var(--color-border);
-    width: 1.75rem;
+    width: var(--card-avatar-width);
   }
 
   .name {
