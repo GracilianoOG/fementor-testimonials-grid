@@ -26,7 +26,9 @@
   --card-title-size: 1.25rem;
   --card-avatar-width: 1.75rem;
   --card-border-radius: 8px;
-  --quotation-right: 23px;
+  --quotation-mobile: 23px;
+  --quotation-desktop: 79px;
+  --quotation-right: var(--quotation-mobile);
 }
 
 body {
