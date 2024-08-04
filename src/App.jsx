@@ -11,7 +11,7 @@ import { StyledCardWrapper } from './components/styles/StyledCardWrapper'
 const App = () => {
   return (
     <StyledCardWrapper>
-      <StyledVioletCard $gridArea="card1" $big>
+      <StyledVioletCard $gridArea="card1" $big $quotation>
         <Card
           avatar={ danielAvatar }
           name="Daniel Clifford"
