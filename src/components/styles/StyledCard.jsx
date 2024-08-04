@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import quotation from "../../assets/images/bg-pattern-quotation.svg";
 
 export const StyledCard = styled.article`
   --color-bg: var(--color-white);
@@ -6,6 +7,7 @@ export const StyledCard = styled.article`
   --color-text: var(--color-dark-grayish-blue);
   --color-border: transparent;
 
+  ${props => props.$quotation && `background: url(${quotation}) no-repeat top right 23px;`}
   background-color: var(--color-bg);
   border-radius: 8px;
   grid-area: ${props => props.$gridArea};
