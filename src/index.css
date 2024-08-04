@@ -21,6 +21,7 @@
   /* Measures */
   --card-small: 254px;
   --card-big: 539px;
+  --quotation-right: 23px;
 }
 
 body {
