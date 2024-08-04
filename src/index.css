@@ -21,6 +21,9 @@
   /* Measures */
   --card-small: 254px;
   --card-big: 539px;
+  --card-name-size: 0.813rem;
+  --card-status-size: 0.688rem;
+  --card-title-size: 1.25rem;
   --quotation-right: 23px;
 }
 
