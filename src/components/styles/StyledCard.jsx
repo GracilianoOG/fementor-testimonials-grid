@@ -7,7 +7,7 @@ export const StyledCard = styled.article`
   --color-text: var(--color-dark-grayish-blue);
   --color-border: transparent;
 
-  ${props => props.$quotation && `background: url(${quotation}) no-repeat top right 23px;`}
+  ${props => props.$quotation && `background: url(${quotation}) no-repeat top right var(--quotation-right);`}
   background-color: var(--color-bg);
   border-radius: 8px;
   grid-area: ${props => props.$gridArea};
@@ -55,7 +55,7 @@ export const StyledCard = styled.article`
 
   @media screen and (min-width: 1200px) {
     & {
-        ${props => props.$quotation && `background: url(${quotation}) no-repeat top right 79px, var(--color-bg);`}
+        ${props => props.$quotation && `--quotation-right: 79px;`}
         max-width: var(${props => props.$big ? "--card-big" : "--card-small"});
     }
   }
