@@ -9,7 +9,7 @@ export const StyledCard = styled.article`
 
   ${props => props.$quotation && `background: url(${quotation}) no-repeat top right var(--quotation-right);`}
   background-color: var(--color-bg);
-  border-radius: 8px;
+  border-radius: var(--card-border-radius);
   grid-area: ${props => props.$gridArea};
   padding: 32px;
   padding-top: 24px;
