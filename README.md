@@ -1,5 +1,9 @@
 # 💻 Testimonials Grid Component - Frontend Mentor
 
+![Design preview](./design/desktop-preview.jpg)
+
+## 📖 Description
+
 This project consists of a *testimonials grid component* made with React, Vite and Styled Components, responsive for mobile and desktop. The challenge was provided by Frontend Mentor.
 
 ## 🎯 The challenge
