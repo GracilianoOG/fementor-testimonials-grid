@@ -1,4 +1,4 @@
 export const sizes = {
-  tablet: "768px",
-  desktop: "1200px"
+  tablet: "48rem",
+  desktop: "75rem"
 }
