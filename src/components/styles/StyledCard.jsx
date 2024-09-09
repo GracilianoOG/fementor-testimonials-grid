@@ -50,6 +50,7 @@ export const StyledCard = styled.article`
   }
 
   .description {
+    font-size: var(--card-description-size);
     opacity: 70%;
     line-height: 1.4;
   }
