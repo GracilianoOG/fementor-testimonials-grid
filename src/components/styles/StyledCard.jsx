@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import quotation from "../../assets/images/bg-pattern-quotation.svg";
+import { sizes } from "../../utils/breakpoints";
 
 export const StyledCard = styled.article`
   --color-bg: var(--color-white);
@@ -53,7 +54,7 @@ export const StyledCard = styled.article`
     line-height: 1.4;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: ${sizes.desktop}) {
     & {
         ${props => props.$quotation && `--quotation-right: var(--quotation-desktop);`}
         max-width: var(${props => props.$big ? "--card-big" : "--card-small"});
